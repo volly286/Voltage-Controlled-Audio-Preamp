@@ -14,7 +14,7 @@ Grupa 432B
 
 ---
 
-![1.](Layout/pcb.jpg?raw=true "Title")
+![1.](Layout/pcb.jpg?raw=true "PCB")
 
 
 
