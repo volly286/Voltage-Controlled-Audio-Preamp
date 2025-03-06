@@ -1,0 +1,22 @@
+########################################################################################################################
+
+1. Accesează folderul **"Schematic_PSPICE-PSpiceFiles"**, apoi:  
+   - Deschide subfolderul **"SCHEMATIC1"**.  
+   - Alege folderul corespunzător:  
+     - **"Amplificator"** și deschide fișierul **Amplificator.cir**.  
+     - **"Repetor"** și deschide fișierul **Repetor.cir**.  
+
+2. Pentru a vizualiza rezultatele simulărilor, apasă pe butonul **View Simulation Results** din bara laterală stângă. 
+
+########################################################################################################################
+
+1. Access the **"Schematic_PSPICE-PSpiceFiles"** folder, then:  
+   - Open the **"SCHEMATIC1"** subfolder.  
+   - Select the appropriate folder:  
+     - **"Amplificator"** and open the file **Amplificator.cir**.  
+     - **"Repetor"** and open the file **Repetor.cir**.  
+
+2. To view the simulation results, click the **View Simulation Results** button in the left sidebar.  
+
+
+######################################################################################################################## 

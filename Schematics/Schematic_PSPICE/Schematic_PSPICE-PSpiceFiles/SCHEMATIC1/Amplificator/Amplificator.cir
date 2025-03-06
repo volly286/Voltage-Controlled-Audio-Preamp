@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-Amplificator"  [ C:\Users\LENOVO\Desktop\Teams\PSPICE\Schematic_PSPICE-PSpiceFiles\SCHEMATIC1\Amplificator.sim ] 
+
+** Creating circuit file "Amplificator.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_smls14bet/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\LENOVO\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 5ms 0 1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
