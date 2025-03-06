@@ -1,86 +1,83 @@
-# Preamplificator Audio cu Amplificare Controlată de Tensiune
+# Audio Preamplifier with Voltage-Controlled Gain
 
-## Universitatea „Politehnica” din București
-### Facultatea de Electronică, Telecomunicații și Tehnologia Informației
-#### Anul universitar 2024-2025
+## University "Politehnica" of Bucharest
+### Faculty of Electronics, Telecommunications, and Information Technology
+#### Academic Year 2024-2025
 
-### Proiect 1 - Proiectarea și realizarea unui preamplificator audio cu amplificare controlată de tensiune
+### Project 1 - Design and Implementation of a Voltage-Controlled Gain Audio Preamplifier
 
-Coordonatori științifici:
-- Prof. dr. ing. Dragoș Dobrescu
-- Prof. dr. ing. Vasile Mădălin Moise
+Scientific Coordinators:
+- Prof. Dr. Eng. Dragoș Dobrescu
+- Prof. Dr. Eng. Vasile Mădălin Moise
 
-Grupa 432B
+Group 432B
 
 ---
 
 ![1.](Layout/pcb.jpg?raw=true "PCB")
 
+## Introduction
 
+In the field of audio electronics, achieving faithful and stable preamplification is essential to ensure a high-quality listening experience. The preamplifier represents the first stage in the signal processing chain, responsible for amplifying signals from very low levels (e.g., microphone, pick-up) to a sufficiently high level, allowing the signal to be processed or transmitted to a power amplifier.
 
-## Introducere
-
-În domeniul electronicii audio, obținerea unei preamplificări fidele și stabile este esențială pentru a asigura o experiență de audiție de înaltă calitate. Preamplificatorul reprezintă prima verigă din lanțul de procesare a semnalelor, responsabil de amplificarea acestora de la nivele foarte mici (ex. microfon, pick-up) la un nivel suficient de ridicat, astfel încât semnalul să poată fi procesat sau transmis către un amplificator de putere.
-
-Obiectivul acestui proiect este realizarea unui preamplificator audio cu amplificare controlată de tensiune, capabil să ofere un control dinamic al câștigului, variind între 1 și 30, în funcție de tensiunea de control aplicată (0–3V). Acesta va opera la o tensiune de alimentare de 13V și va asigura o performanță audio de calitate.
+The objective of this project is to design and implement a voltage-controlled gain audio preamplifier capable of providing dynamic gain control, ranging from 1 to 30, depending on the applied control voltage (0-3V). It will operate at a supply voltage of 13V and ensure high-quality audio performance.
 
 ---
 
-## Date inițiale de proiectare
+## Initial Design Data
 
-### Descrierea temei
+### Project Description
 
-Proiectul constă în proiectarea și realizarea unui preamplificator audio cu amplificare controlată de tensiune. Principalele cerințe sunt:
-- **Tensiune de alimentare**: 13V unipolară sau ±13V bipolară
-- **Semnal de intrare**: 0–30mV la 3kHz
-- **Controlul amplificării**: Tensiune de control între 0–3V
-- **Ieșire**: Preamplificatorul va conduce o sarcină de 800 Ω
+The project involves the design and implementation of a voltage-controlled gain audio preamplifier. The main requirements are:
+- **Power supply**: 13V unipolar or ±13V bipolar
+- **Input signal**: 0-30mV at 3kHz
+- **Gain control**: Control voltage between 0-3V
+- **Output**: The preamplifier will drive a load of 800 Ω
 
-### Schema bloc a montajului electric
+### Block Diagram of the Circuit
 
-Schema bloc a circuitului include etaje precum:
-- Etajul **Emitor Comun (EC)**: Amplificare de tensiune substanțială
-- Etajul **Bază Comună (BC)**: Stabilitate și câștig suplimentar
-- Etajul **Colector Comun (CC)**: Adaptarea de impedanță și amplificare de curent
+The circuit block diagram includes the following stages:
+- **Common-Emitter (CE) Stage**: Provides substantial voltage gain
+- **Common-Base (CB) Stage**: Ensures stability and additional gain
+- **Common-Collector (CC) Stage**: Provides impedance matching and current amplification
 
+### Implementation Method
 
-### Mod de realizare
-
-1. **Unelte și materiale necesare**:
-    - Pasta de lipit
-    - Stație de reflow
-    - Pensetă antistatică
-    - Flux suplimentar
-2. **Procedura de lipire (Reflow)**:
-    - Pregătirea PCB-ului
-    - Aplicarea pastei de lipit
-    - Plasarea componentelor SMD
-    - Profilul termic de reflow
-
----
-
-## Manual de utilizare
-
-Preamplificatorul audio este ușor de utilizat urmând pașii de mai jos:
-1. **Conectarea alimentării**:
-    - Conectează borna negativă la GND și borna pozitivă la VCC.
-2. **Semnalul de intrare**:
-    - Conectează semnalul audio la borna IN.
-3. **Controlul amplificării**:
-    - Ajustează tensiunea de control (0-3V) pentru a modifica câștigul.
-4. **Ieșirea audio**:
-    - Conectează ieșirea la echipamentele audio externe.
+1. **Tools and Materials Required**:
+    - Solder paste
+    - Reflow station
+    - Anti-static tweezers
+    - Additional flux
+2. **Soldering Procedure (Reflow)**:
+    - Preparing the PCB
+    - Applying solder paste
+    - Placing SMD components
+    - Reflow thermal profile
 
 ---
 
-## Concluzii
+## User Manual
 
-Acest proiect reprezintă realizarea unui preamplificator audio eficient cu amplificare controlată de tensiune, util atât în aplicații profesionale cât și hobby. Performanțele obținute în urma testărilor și simulărilor au confirmat funcționalitatea și fiabilitatea circuitului.
+The audio preamplifier is easy to use by following the steps below:
+
+1. **Connecting the Power Supply**:
+    - Connect the negative terminal to GND and the positive terminal to VCC.
+2. **Input Signal**:
+    - Connect the audio signal to the IN terminal.
+3. **Gain Control**:
+    - Adjust the control voltage (0-3V) to modify the gain.
+4. **Audio Output**:
+    - Connect the output to external audio equipment.
 
 ---
 
-## Bibliografie
+## Conclusions
 
-- Manuale tehnice privind amplificatoarele audio
-- Ghiduri pentru realizarea PCB-urilor și a tehnologiei SMT
+This project represents the implementation of an efficient voltage-controlled gain audio preamplifier, useful in both professional and hobby applications. The performance obtained from testing and simulations has confirmed the circuit's functionality and reliability.
 
+---
+
+## References
+
+- Technical manuals on audio amplifiers
+- Guides for PCB manufacturing and SMT technology
